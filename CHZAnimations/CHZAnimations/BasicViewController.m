@@ -27,7 +27,7 @@
     [_animationButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_animationButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
     _animationButton.titleLabel.font = [UIFont systemFontOfSize:14.0];
-    _animationButton.backgroundColor = [UIColor blueColor];
+    _animationButton.backgroundColor = [UIColor blackColor];
     [self.view addSubview:_animationButton];
     [_animationButton addTarget:self action:@selector(startPlayAnimation) forControlEvents:UIControlEventTouchUpInside];
 }

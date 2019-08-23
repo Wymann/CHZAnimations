@@ -23,7 +23,7 @@
     self.title = @"无限呼吸动画（循环）";
     
     self.animationView = [[UILabel alloc] initWithFrame:CGRectMake(80, 200, 150, 150)];
-    self.animationView.backgroundColor = [UIColor darkGrayColor];
+    self.animationView.backgroundColor = [UIColor redColor];
     self.animationView.layer.cornerRadius = 150/2;
     self.animationView.clipsToBounds = YES;
     self.animationView.font = [UIFont systemFontOfSize:14.0];
@@ -49,14 +49,14 @@
 
 /** 停止无限呼吸动画 */
 - (void)stopAnimation {
-    [self.animationView sto];
+    [self.animationView stopBreath];
 }
 
 #pragma mark - override
 -(void)startPlayAnimation {
     [super startPlayAnimation];
     //开始无限呼吸动画
-    [self.animationView startInfiniteRotatingWithDuring:2 clockWise:YES];
+    [self.animationView startBreathWithDuring:1];
 }
 
 @end
