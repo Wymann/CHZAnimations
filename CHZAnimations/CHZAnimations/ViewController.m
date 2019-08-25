@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "InfiniteRotationVC.h"
 #import "BreathVC.h"
+#import "BasicMoveVC.h"
+#import "SpringMoveVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -71,11 +73,15 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
-        case 0:
-            
+        case 0:{
+            BasicMoveVC *vc = [[BasicMoveVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
-        case 1:
-            
+        case 1:{
+            SpringMoveVC *vc = [[SpringMoveVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
             break;
         case 2:{
             BreathVC *vc = [[BreathVC alloc] init];

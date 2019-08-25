@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB276730231234D600DB34EC /* BasicMoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB27672F231234D600DB34EC /* BasicMoveVC.m */; };
+		EB2767332312368000DB34EC /* SpringMoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2767322312368000DB34EC /* SpringMoveVC.m */; };
 		F60167C1230FEA5E00074EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F60167C0230FEA5E00074EDC /* AppDelegate.m */; };
 		F60167C4230FEA5E00074EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60167C3230FEA5E00074EDC /* ViewController.m */; };
 		F60167C9230FEA6000074EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60167C8230FEA6000074EDC /* Assets.xcassets */; };
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB27672E231234D600DB34EC /* BasicMoveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicMoveVC.h; sourceTree = "<group>"; };
+		EB27672F231234D600DB34EC /* BasicMoveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicMoveVC.m; sourceTree = "<group>"; };
+		EB2767312312368000DB34EC /* SpringMoveVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringMoveVC.h; sourceTree = "<group>"; };
+		EB2767322312368000DB34EC /* SpringMoveVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringMoveVC.m; sourceTree = "<group>"; };
 		F60167BC230FEA5E00074EDC /* CHZAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHZAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60167BF230FEA5E00074EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F60167C0230FEA5E00074EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +108,10 @@
 				F60167EE230FF03A00074EDC /* InfiniteRotationVC.m */,
 				F60167F0230FF68500074EDC /* BreathVC.h */,
 				F60167F1230FF68500074EDC /* BreathVC.m */,
+				EB27672E231234D600DB34EC /* BasicMoveVC.h */,
+				EB27672F231234D600DB34EC /* BasicMoveVC.m */,
+				EB2767312312368000DB34EC /* SpringMoveVC.h */,
+				EB2767322312368000DB34EC /* SpringMoveVC.m */,
 				F60167C8230FEA6000074EDC /* Assets.xcassets */,
 				F60167CA230FEA6000074EDC /* LaunchScreen.storyboard */,
 				F60167CD230FEA6000074EDC /* Info.plist */,
@@ -229,8 +239,10 @@
 			files = (
 				F60167C4230FEA5E00074EDC /* ViewController.m in Sources */,
 				F60167E6230FEB8300074EDC /* UIView+CHZAnimations.m in Sources */,
+				EB276730231234D600DB34EC /* BasicMoveVC.m in Sources */,
 				F60167CF230FEA6000074EDC /* main.m in Sources */,
 				F60167C1230FEA5E00074EDC /* AppDelegate.m in Sources */,
+				EB2767332312368000DB34EC /* SpringMoveVC.m in Sources */,
 				F60167EF230FF03A00074EDC /* InfiniteRotationVC.m in Sources */,
 				F60167F2230FF68500074EDC /* BreathVC.m in Sources */,
 				F60167EC230FEECE00074EDC /* BasicViewController.m in Sources */,

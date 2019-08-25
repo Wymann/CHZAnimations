@@ -56,7 +56,6 @@ static NSString *AnimationStatusBlockKey = @"AnimationStatusBlockKey";
     if (self.animationStatusBlock) {
         self.animationStatusBlock(AnimationStatus_BasicMoveBegin);
     }
-    self.frame = startRect;
     [UIView animateWithDuration:during animations:^{
         self.frame = endRect;
     } completion:^(BOOL finished) {
